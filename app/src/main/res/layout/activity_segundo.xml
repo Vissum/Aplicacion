@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9ead3"
+    tools:context=".SegundoActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grupos_de_operaciones"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:id="@+id/btnMatematicaBasica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/matem_tica_b_sica"
+        android:backgroundTint="#38761d"
+        app:layout_constraintTop_toBottomOf="@id/tvTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+   />
+
+    <Button
+        android:id="@+id/btnDecisiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decisiones"
+        android:backgroundTint="#38761d"
+        app:layout_constraintTop_toBottomOf="@id/btnMatematicaBasica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+     />
+
+    <Button
+        android:id="@+id/btnConjeturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conjeturas"
+        android:backgroundTint="#38761d"
+        app:layout_constraintTop_toBottomOf="@id/btnDecisiones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+   />
+
+    <Button
+        android:id="@+id/btnRetornar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Retornar"
+        android:backgroundTint="#38761d"
+        app:layout_constraintTop_toBottomOf="@id/btnConjeturas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+   />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

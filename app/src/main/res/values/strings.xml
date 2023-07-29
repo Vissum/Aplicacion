@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Aplicación</string>
+    <string name="nombre">Nombre</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="Retornar">Retornar </string>
+    <string name="conjeturas">Conjeturas</string>
+    <string name="decisiones">Decisiones</string>
+    <string name="matem_tica_b_sica">Mate Básica</string>
+    <string name="grupos_de_operaciones">Grupos de Operaciones</string>
+    <string name="regresar_al_mainactivity">Regresar </string>
+    <string name="operar">Operar</string>
+    <string name="divisi_n">División</string>
+    <string name="multiplicaci_n">Multiplicación</string>
+    <string name="resta">Resta</string>
+    <string name="suma">Suma</string>
+    <string name="ingrese_el_segundo_n_mero">Ingrese el segundo número</string>
+    <string name="ingrese_el_primer_n_mero">Ingrese el primer número</string>
+    <string name="regresar_al_segundo_activity">Regresar</string>
+    <string name="tri_ngulo_de_pascal"> Pascal</string>
+    <string name="fibonacci">Fibonacci</string>
+    <string name="collatz">Collatz</string>
+    <string name="selecciona_una_conjetura">Selecciona una conjetura:</string>
+    <string name="realizar_conjetura" />
+    <string name="ingrese_un_n_mero" />
+    <string name="realizar">realizar</string>
+    <string name="descripcion_btn_realizar_conjetura">Realizar Conjetura</string>
+    <string name="descripcion_btn_regresar">Regresar al Segundo Activity</string>
+    <string name="ingresa_un_n_mero"></string>
+    <string name="realizard">Realizar</string>
+    <string name="descripcion_btn_realizar_fibonacci" />
+    <string name="resultado_fibonacci" />
+    <string name="error_fibonacci" />
+    <string name="descripcion_btn_realizar_pascal" />
+    <string name="ingrese_una_cantidad_valida" />
+    <string name="resultado">Resultado: %s</string>
+
+    <string name="ingrese_una_cantidad" />
+    <string name="sueldo_liquido">Sueldo Líquido</string>
+    <string name="calcular">Calcular</string>
+    <string name="iva">IVA</string>
+    <string name="iggs">IGGS</string>
+
+</resources>

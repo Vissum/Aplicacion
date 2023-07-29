@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#d9ead3"
+    tools:ignore="ExtraText,MissingDefaultResource">
+
+    <RadioGroup
+        android:id="@+id/radioGroupOpciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbIva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iva"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/rbIgss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iggs" />
+
+        <RadioButton
+            android:id="@+id/rbSueldoLiquido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sueldo_liquido" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/ingrese_una_cantidad"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/calcular"
+        android:backgroundTint="#38761d"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regresar_al_segundo_activity"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#38761d"/>
+
+</LinearLayout>
